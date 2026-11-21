@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy to configs/<slug>.json. One entry per competitor; leave out a site the competitor isn't on. g2 = the slug in g2.com/products/<slug>, capterra = '<id>/<Name>' from capterra.com/p/<id>/<Name>/, trustradius = the slug in trustradius.com/products/<slug>, trustpilot = the domain in trustpilot.com/review/<domain>. buyer_hint (optional) tells the LLM who counts as a buyer on Trustpilot, which has no job titles.",
+  "buyer_hint": "Our buyers are recruiters, HR and talent acquisition leads, and owners who post jobs.",
+  "max_stars": 2,
+  "since": "2025-01-01",
+  "competitors": [
+    {"name": "Competitor One", "g2": "competitor-one", "capterra": "123456/Competitor-One", "trustradius": "competitor-one", "trustpilot": "competitorone.com"}
+  ]
+}

@@ -1,0 +1,6 @@
+.env
+data/
+configs/*
+!configs/.gitkeep
+__pycache__/
+*.tmp
